@@ -27,7 +27,7 @@ addLayer("m", {
     layerShown(){return true},
 	 upgrades: {
     11: {
-        title: "Reload"
+        title: "Reload",
 	description: "Double bullet gain",
         cost: new Decimal(1),
     },
