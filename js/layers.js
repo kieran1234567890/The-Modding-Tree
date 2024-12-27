@@ -24,5 +24,11 @@ addLayer("m", {
     hotkeys: [
         {key: "m", description: "M: Reset for magazines", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
-    layerShown(){return true}
+    layerShown(){return true},
+	 upgrades: {
+		 11: {
+
+        },
+
+    },
 })
